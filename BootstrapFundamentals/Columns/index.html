@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columns</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1 class="text-bg-success">Bootstrap Columns</h1>
+    <!--
+        Breakpoints         Class           Dimensions      Container Size
+        Ex Small            -               < 576px         100%
+        Small               sm              ≥ 576px         540px
+        Medium              md              ≥ 768px         720px
+        Large               lg              ≥ 992px         960px
+        Ex Large            xl              ≥ 1200px        1140px
+        Ex Ex Large         xxl             ≥ 1400px        1320px
+    -->
+
+    <div class="container">
+        <div class="row bg-primary row-thick align-content-center">
+            <div class="col-4">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-secondary row-thick">
+            <div class="col-4 align-self-start">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-4 align-self-center">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-4 align-self-end">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-success row-thick justify-content-between">
+            <div class="col-3">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-warning row-thick">
+            <div class="col-3">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-3">
+                <div class="bg-light">
+                    <p>Row - Col-4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
