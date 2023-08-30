@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1 class="text-bg-success">Bootstrap Accordion</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="accordionParent" class="accordion">
+                    <div class="accordion-item">
+                        <div id="accOne" class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="targetOne" data-bs-target="#targetOne">
+                                Accordion #1
+                            </button>
+                        </div>
+                        <div id="targetOne" class="accordion-collapse collapse show" data-bs-parent="#accordionParent">
+                            <div class="accordion-body">
+                                <p>Text for the Accordion Body.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div id="accTwo" class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="targetTwo" data-bs-target="#targetTwo">
+                                Accordion #2
+                            </button>
+                        </div>
+                        <div id="targetTwo" class="accordion-collapse collapse" data-bs-parent="#accordionParent">
+                            <div class="accordion-body">
+                                <p>Text for the Accordion Body.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div id="accThree" class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="targetThree" data-bs-target="#targetThree">
+                                Accordion #3
+                            </button>
+                        </div>
+                        <div id="targetThree" class="accordion-collapse collapse" data-bs-parent="#accordionParent">
+                            <div class="accordion-body">
+                                <p>Text for the Accordion Body.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
